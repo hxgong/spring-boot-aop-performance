@@ -16,6 +16,7 @@ repositories {
 }
 dependencies {
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version:'1.4.0.BUILD-SNAPSHOT'
+	compile 'org.springframework:spring-aspects:4.2.4.RELEASE'
     testCompile(group: 'org.springframework.boot', name: 'spring-boot-starter-test', version:'1.4.0.BUILD-SNAPSHOT') {
 exclude(module: 'commons-logging')
     }
